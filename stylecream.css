@@ -1,0 +1,216 @@
+/*Colors and fonts */
+
+body {
+	font-family: 'Antic Didone', serif;
+	font-size: 21px;
+}
+
+h1, h2 {
+	line-height: 5%;
+	font-family: 'Alike', serif;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 17px;
+}
+
+h3{
+	font-family: 'Comic Neue', cursive;
+	font-size: 36px;
+}
+
+/*Custom design with class and id */
+
+#container {
+	width: 750px;
+	height: 500px;
+	margin: 60px 300px;
+}
+
+/* bannière 1*/
+
+.container {
+	align-content: center;
+	width: 800px;
+	margin: 0px 0px;
+	background-size: cover;
+	background-position: center;
+}
+.text-center {
+	width: 1200px; 
+    height: 150px;
+	text-align: center;
+	background-image: url("images/fond1.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 0px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+	align-content: center;
+}
+
+/*banneer's links*/
+
+.btn-blue {
+	color: black; 
+	padding: 3px 20px;
+	border-radius: 5px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+}
+.btn-blue:hover {
+	color: rgb(208, 233, 236);
+}
+
+#column1{
+	float: left;
+	width: 160px;
+}
+
+#column2{
+	float: left;
+	width: 160px;
+}
+
+#column5{
+	float: right;
+	width: 160px;
+}
+
+#column4{
+	float: right;
+	width: 80px;
+}
+
+#column3{
+	float: right;
+	width: 200px;
+}
+
+/*text on the page*/
+
+#textright {
+	margin-top: 30px;
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	float: right;
+	text-align: center;
+}
+
+#textright h3{
+	margin-top: 20px; 
+	margin: 0px;
+	text-align: center;
+}
+
+
+.image-left{
+	margin-top: 20px;
+	margin-left: -50px;
+	width: 300px; 
+    height: 380px;
+    display: inline-block;
+	padding: 0px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+
+}
+#textleft { 
+	margin-top: 100px;
+	margin-right: 200px;
+	margin-left: -50px;
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+
+.image-right {
+	margin-top: -75px;
+	margin-bottom: 20px;
+	width: 300px; 
+    height: 500px;
+    display: inline-block;
+	padding: 0px;
+	float: right;
+	margin-left: 20px;
+	
+}
+
+.image-bottom {
+	margin-left: -50px;	
+	float: center;
+}
+
+/*buying button*/
+
+.btn-red {
+	background-color: #ffa5a5;
+	margin-top: 90px;
+	color: black; 
+	padding: 3px 20px;
+	border-radius: 3px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+	display: inline-block;
+
+}
+
+.btn-red:hover {
+	background-color: #8db596;
+	color: rgb(208, 233, 236);
+}
+
+/*responsivity*/
+
+@media (max-width: 1200px){
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
