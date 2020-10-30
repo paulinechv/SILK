@@ -113,6 +113,9 @@ h3{
 	text-align: center;
 }
 
+#textright span{
+	color: rgb(174, 214, 207);
+}
 
 .image-left{
 	margin-top: 20px;
@@ -159,7 +162,7 @@ h3{
 /*buying button*/
 
 .btn-red {
-	background-color: #ffa5a5;
+	background-color: rgb(230, 168, 171);
 	margin-top: 20px;
 	margin-right: 370px;
 	color: black; 
@@ -172,7 +175,6 @@ h3{
 }
 
 .btn-red:hover {
-	background-color: #8db596;
 	color: rgb(208, 233, 236);
 }
 
