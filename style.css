@@ -1,0 +1,288 @@
+/*Colors and fonts */
+
+
+h1, h2 {
+	line-height: 5%;
+	font-family: 'Alike', serif;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 17px;
+}
+
+h3{
+	font-family: 'Comic Neue', cursive;
+	font-size: 36px;
+}
+
+h4{
+	font-family: 'Antic Didone', serif;
+	font-size: 18px;
+}
+
+
+
+/*Custom design with class and id */
+
+#container1 {
+	width: 750px;
+	height: 500px;
+	margin: 60px 300px;
+}
+
+/* bannière 1*/
+
+
+.container {
+	align-content: center;
+	width: 800px;
+	margin: 0px 220px;
+	background-size: cover;
+	background-position: center;
+}
+.text-center {
+	width: 1200px; 
+    height: 150px;
+	text-align: center;
+	background-image: url("images/fond1.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 0px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+	align-content: center;
+}
+
+#titleright{
+	font-family: 'Comic Neue', cursive;
+	font-size: 64px;
+	display: inline-block;
+	float: right;
+	height: 30px;
+}
+
+/*banneer's links*/
+
+.btn-blue {
+	color: black; 
+	padding: 3px 20px;
+	border-radius: 5px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+}
+.btn-blue:hover {
+	color: rgb(208, 233, 236);
+}
+
+#column1{
+	float: left;
+	width: 160px;
+}
+
+#column2{
+	float: left;
+	width: 160px;
+}
+
+#column5{
+	float: right;
+	width: 160px;
+}
+
+#column4{
+	float: right;
+	width: 80px;
+}
+
+#column3{
+	float: right;
+	width: 200px;
+}
+
+/* bannière 2 */
+
+.text-center2 {
+	width: 1200px; 
+    height: 100px;
+    display: block;
+	text-align: center;
+	background-image: url("images/fond2.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin:0%; 
+	margin-top: 70px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+}
+
+/* deux premières photos*/ 
+
+
+
+/*first paragraph*/
+/* NEW*/
+div #titleright{
+	width: 50px;
+	height: 80px;
+}
+
+#titleright p{
+	margin: 0px;
+}
+
+/* text on the page*/
+
+
+#textright {
+	margin-top: 0px;
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+
+}
+
+#textright h3 {
+	margin: 0px;
+}
+
+
+#textright p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+
+#textright p1{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+	color: #DFAEAE;
+} 
+
+.image-left{
+	width: 250px; 
+    height: 490px;
+    display: inline-block;
+	padding: 0px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+#bottom-text p {
+	width: 200px;
+	font-family: 'Antic Didone', serif;
+	font-size: 18px;
+	margin-left: 90px;
+	margin-top: 0px;
+
+}
+
+/* opacité */
+
+#container{
+	color: black;
+	opacity: 0.4;
+}
+
+/* 4 images du bas */
+
+.gallery {
+	width: 1200px;
+	height: 700px;
+}
+
+.gallery ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 32px 0;
+}
+
+.gallery li {
+    margin: 0 10px;
+    flex-basis: calc(50% - 20px); 
+    text-align: center; /* width minus margins */
+}
+
+.gallery img {
+    width: 250px;               
+    height: 250px;
+    align-content: center;
+	position: center;
+	display: inline-block;
+	float: center;
+}
+
+/*logos*/
+
+div .pictures{
+	width: 750px;
+	height: 80px;
+	margin: 0px;
+}
+
+.pictures ul {
+    display:inline-flex;
+    list-style: none;
+    padding: 0px;
+}
+
+
+.pictures img {
+    width: 85px;               
+    height: 80px;
+    padding: 0px;
+}
+
+/*responsivity*/
+
+@media (max-width: 1200px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+/* test*/
+
+
+.flex-item {
+  display: table-footer-group;
+  align-items: center;
+  justify-content: space-around;
+	
+}
+.flex-item img {
+  width: 150px; 
+  display: block;
+}
+
+#column6{
+	float: left;
+	width: 25px;
+}
+
+#column7{
+	float: center;
+	width: 500px;
+}
+
