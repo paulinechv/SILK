@@ -40,7 +40,7 @@ h4{
 .container {
 	align-content: center;
 	width: 800px;
-	margin: 0px 220px;
+	margin: 0px 0px;
 	background-size: cover;
 	background-position: center;
 }
