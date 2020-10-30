@@ -1,0 +1,189 @@
+/*Colors and fonts */
+
+
+h1, h2 {
+	line-height: 5%;
+	font-family: 'Alike', serif;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 17px;
+}
+
+h3, #btn{
+	font-family: 'Comic Neue', cursive;
+	font-size: 36px;
+}
+
+#top-paragraph p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+
+#bottom-paragraph p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+/*Custom design with class and id */
+
+/* bannière 1*/
+
+.container {
+	align-content: center;
+	width: 800px;
+	margin: 0px 0px;
+	background-size: cover;
+	background-position: center;
+}
+.text-center {
+	width: 1200px; 
+    height: 150px;
+	text-align: center;
+	background-image: url("images/fond1.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 0px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+	align-content: center;
+}
+
+/*banneer's links*/
+
+.btn-blue {
+	color: black; 
+	padding: 3px 20px;
+	border-radius: 5px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+}
+.btn-blue:hover {
+	color: rgb(208, 233, 236);
+}
+
+#column1{
+	float: left;
+	width: 160px;
+}
+
+#column2{
+	float: left;
+	width: 160px;
+}
+
+#column5{
+	float: right;
+	width: 160px;
+}
+
+#column4{
+	float: right;
+	width: 80px;
+}
+
+#column3{
+	float: right;
+	width: 200px;
+}
+
+/* Top page */
+
+#top-paragraph{
+	width: 1250px;
+	height: 800px;
+	margin-top: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#top-paragraph h3{
+	margin: 0px;
+	text-align: center;
+}
+
+#top-paragraph p{
+	text-align: center;
+}
+
+#images{
+	width: 580px;
+	height: 779px;
+	margin: 0px;
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-right: 130px;
+	display: inline-block;
+	float: left;
+}
+
+/* top text */
+
+#right{
+	width: 1250px;
+	height: 800px;
+	margin-top: 90px;
+}
+
+/* Bottom page */
+
+#bottom-paragraph{
+	width: 1250px;
+	height: 800px;
+	margin-top: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#bottom-paragraph h3{
+	margin: 0px;
+	text-align: center;
+}
+
+#bottom-paragraph p{
+	text-align: center;
+}
+
+#image{
+	width: 600px;
+	height: 779px;
+	margin: 0px;
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-right: 0px;
+	display: inline-block;
+	float: right;
+}
+
+/*bottom text*/
+
+#left{
+	width: 1150px;
+	height: 800px;
+	margin-top: 260px;
+	margin-left: 70px;
+}
+
+
+/*buttons*/
+
+#btn{
+	background-color: #DFAEAE;
+	color: black; 
+	padding: 5px 10px;
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+	text-align: center;
+	margin-top: 70px;
+}
+#btn:hover{
+	background-color: #b5d4ce;
+	color: black;
+}
+
