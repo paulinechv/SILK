@@ -41,6 +41,7 @@ h3{
 	background-size: cover;
 	background-position: center;
 }
+
 .text-center {
 	width: 1360px; 
     height: 150px;
@@ -96,10 +97,12 @@ h3{
 
 /*text and images on the page*/
 
-.student {
+a {
+	text-decoration: none;
 	color: black;
 }
-.student:hover {
+
+a: hover {
 	color: rgb(174, 214, 207);
 }
 
@@ -158,8 +161,25 @@ h3{
 }
 
 
+/*responsivity*/
 
+@media (max-width: 1200px){
+	.container {
+		width: 700px;
+	}
+}
 
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
 
 
 
