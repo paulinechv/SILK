@@ -24,6 +24,15 @@ h3{
 	padding-bottom: 20px;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a: hover {
+	color: rgb(174, 214, 207);
+}
+
 /*Custom design with class and id */
 
 #container {
@@ -97,15 +106,6 @@ h3{
 
 /*text and images on the page*/
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
-a: hover {
-	color: rgb(174, 214, 207);
-}
-
 #textabout {
 	padding: 0px;
 	display: inline-block;
@@ -159,7 +159,6 @@ a: hover {
 	width: 50px;
 	height: 30px;
 }
-
 
 /*responsivity*/
 
