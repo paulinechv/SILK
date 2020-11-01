@@ -1,0 +1,190 @@
+/*Colors and fonts */
+
+body {
+	font-family: 'Antic Didone', serif;
+	font-size: 21px;
+}
+
+h1, h2 {
+	line-height: 5%;
+	font-family: 'Alike', serif;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 17px;
+}
+
+h3{
+	font-family: 'Comic Neue', cursive;
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+
+/*Custom design with class and id */
+
+#container {
+	width: 750px;
+	height: 500px;
+	margin: 60px 350px;
+}
+
+/* banner */
+
+.container {
+	align-content: center;
+	width: 800px;
+	margin: 0px 0px;
+	background-size: cover;
+	background-position: center;
+}
+.text-center {
+	width: 1360px; 
+    height: 150px;
+	text-align: center;
+	background-image: url("images/fond1.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 0px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+	align-content: center;
+}
+
+/*banner's links*/
+
+.btn-blue {
+	color: black; 
+	padding: 3px 20px;
+	border-radius: 5px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+}
+.btn-blue:hover {
+	color: rgb(208, 233, 236);
+}
+
+#column1 {
+	float: left;
+	width: 160px;
+}
+
+#column2 {
+	float: left;
+	width: 160px;
+}
+
+#column5 {
+	float: right;
+	width: 160px;
+}
+
+#column4 {
+	float: right;
+	width: 80px;
+}
+
+#column3 {
+	float: right;
+	width: 200px;
+}
+
+/*text and images on the page*/
+
+.student {
+	color: black;
+}
+.student:hover {
+	color: rgb(174, 214, 207);
+}
+
+#textabout {
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	text-align: left;
+}
+
+#textabout h3 {
+	margin-top: 20px; 
+	margin: 0px;
+}
+
+#textabout span {
+	color: rgb(174, 214, 207);
+}
+
+#textethics {
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	text-align: left;
+}
+
+#textethics h3 {
+	margin-top: 20px; 
+	margin: 0px;
+	text-align: center;
+}
+
+#textethics span {
+	color: rgb(174, 214, 207);
+}
+
+#textethics2 {
+	margin-top: 30px;
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	float: right;
+	text-align: center;
+}
+
+#textethics2 span{
+	color: rgb(231, 169, 172);
+}
+
+.logo {
+	width: 50px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
