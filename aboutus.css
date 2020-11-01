@@ -26,11 +26,11 @@ h3{
 
 a {
 	text-decoration: none;
-	color: black;
+	color:rgb(231, 169, 172);
 }
 
-a: hover {
-	color: rgb(174, 214, 207);
+a:hover {
+	color: rgb(208, 233, 236);
 }
 
 /*Custom design with class and id */
@@ -106,58 +106,48 @@ a: hover {
 
 /*text and images on the page*/
 
-#textabout {
+#textabout, #textethics, #textethics2 {
 	padding: 0px;
 	display: inline-block;
-	width: 440px;
+	width: 800px;
 	height: 100px;
 	text-align: left;
 }
 
-#textabout h3 {
+#textabout h3, #texethics h3 {
 	margin-top: 20px; 
 	margin: 0px;
 }
 
-#textabout span {
+#textabout span, #textethics span {
 	color: rgb(174, 214, 207);
 }
 
-#textethics {
-	padding: 0px;
-	display: inline-block;
-	width: 440px;
-	height: 100px;
-	text-align: left;
-}
-
-#textethics h3 {
-	margin-top: 20px; 
+#textethics2 h3 {
+	margin-top: 10px; 
 	margin: 0px;
-	text-align: center;
-}
-
-#textethics span {
-	color: rgb(174, 214, 207);
-}
-
-#textethics2 {
-	margin-top: 30px;
-	padding: 0px;
-	display: inline-block;
-	width: 440px;
-	height: 100px;
-	float: right;
-	text-align: center;
-}
+}	
 
 #textethics2 span{
 	color: rgb(231, 169, 172);
 }
 
+
 .logo {
 	width: 50px;
 	height: 30px;
+	float: right;
+	position: relative;
+	margin-right: 590px;
+}
+
+.yuka {
+	width: 50px;
+	height: 30px;
+	float: right;
+	position: relative;
+	bottom: 50px;
+	margin-right: 490px;
 }
 
 /*responsivity*/
