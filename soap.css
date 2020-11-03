@@ -1,0 +1,232 @@
+/* Colors and fonts */
+
+
+h1, h2 {
+	line-height: 5%;
+	font-family: 'Alike', serif;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 17px;
+}
+
+h3{
+	font-family: 'Comic Neue', cursive;
+	font-size: 36px;
+}
+
+#top-paragraph p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+
+#middle-paragraph p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+
+
+/* Customs design with id and class */
+
+#container {
+	width: 750px;
+	height: 500px;
+	margin: 60px 350px;
+}
+
+
+/* Bannière 1 */
+
+.container {
+	align-content: center;
+	width: 800px;
+	margin: 0px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.text-center {
+	width: 1360px; 
+    height: 150px;
+	text-align: center;
+	background-image: url("images/fond1.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 0px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+	align-content: center;
+}
+
+
+/* Banner's links */
+
+
+.btn-blue {
+	color: black; 
+	padding: 3px 20px;
+	border-radius: 5px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+}
+
+.btn-blue:hover {
+	color: rgb(208, 233, 236);
+}
+
+#column1{
+	float: left;
+	width: 160px;
+}
+
+#column2{
+	float: left;
+	width: 160px;
+}
+
+#column3{
+	float: right;
+	width: 200px;
+}
+
+#column4{
+	float: right;
+	width: 80px;
+}
+
+#column5{
+	float: right;
+	width: 160px;
+}
+
+
+/* Top page */
+
+
+#top-paragraph{
+	width: 1250px;
+	height: 650px;
+	margin-top: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#top-paragraph h3{
+	margin: 0px;
+	margin-top: 80px;
+	margin-left: 225px;
+	text-align: left;
+}
+
+#image1{
+	width: 350px;
+	height: 470px;
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 40px;
+	display: inline-block;
+	float: left;
+}
+
+#image4{
+	width: 550px;
+	height: 470px;
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 70px;
+	margin-right: 40px;
+	display: inline-block;
+	float: left;
+}
+
+#middle-paragraph{
+	width: 1360px;
+	height: 200px;
+	padding: 0px;
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 60px;
+	margin-left: 60px;
+	text-align: center;
+	align-content: center;
+	float: center;
+}
+
+#text-center {
+	width: 1000px;
+	height: 200px;
+	margin-left: 130px;
+	display: block;
+}
+
+#text-center2 {
+	width: 1000px;
+	height: 200px;
+	margin-left: 130px;
+	display: block;
+	margin-top: 80px;
+}
+
+
+/* Bottom page */
+
+#bottom-paragraph{
+	margin-top: 80px;
+}
+
+
+#image2 {
+	margin-left: 150px;	
+	margin-top: 80px;
+    float: center;
+	display: block;
+	width: 1100px;
+	height: 550px;
+}
+
+
+/* Buttons */
+
+#btn{
+	width: 1200px;
+}
+
+.btn-red{
+	background-color: rgb(230, 168, 171);
+	margin-top: 80px;
+	margin-left: 700px;
+	margin-bottom: 60px;
+	color: black; 
+	padding: 10px 80px;
+	border-radius: 3px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+	float: right;
+	display: flex;
+}
+
+.btn-red:hover{
+	background-color: #b5d4ce;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
