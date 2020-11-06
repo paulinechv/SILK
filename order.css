@@ -5,6 +5,7 @@
 h1, h2 {
 	line-height: 5%;
 	font-family: 'Alike', serif;
+	color: black;
 }
 
 h1{
@@ -29,7 +30,9 @@ h5{
 	font-family: 'Comic Neue', cursive;
 	font-size: 36px;
 }
-
+a {
+	text-decoration: none;	
+}
 
 /*Custom design with class and id */
 
