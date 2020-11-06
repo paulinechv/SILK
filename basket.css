@@ -138,7 +138,7 @@ a {
 
 .text-center {
 	width: 1360px; 
-    height: 150px;
+    	height: 150px;
 	text-align: center;
 	background-image: url("images/fond1.PNG");
 	padding: 30px;
@@ -201,8 +201,8 @@ a {
 
 .text-center2 {
 	width: 1360px; 
-    height: 100px;
-    display: block;
+	height: 100px;
+	display: block;
 	text-align: center;
 	background-image: url("images/fond2.PNG");
 	padding: 30px;
@@ -267,8 +267,8 @@ div .image-left{
 
 .image-left img{
 	width: 250px; 
-    height: 490px;
-    display: block;
+    	height: 490px;
+    	display: block;
 	padding: 0px;
 	float: left;
 	margin-right: 0px;
