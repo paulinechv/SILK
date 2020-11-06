@@ -1,4 +1,3 @@
-
 /*Colors and fonts */
 
 
@@ -64,13 +63,7 @@ a {
 }
 
 
-.box-center input{
-	align-content: left;
-	margin-right: 80px;
-	margin-left: 80px;
-	width: 300px;
-	height: 50px;
-}
+
 
 .box-center img{
 	align-content: left;
@@ -80,8 +73,7 @@ a {
 	height: 260px;
 }
 
-
-.box-center input[type="submit" i] {
+.box-center button{
 	align-content: left;
 	margin-right: 80px;
 	margin-left: 80px;
@@ -89,8 +81,10 @@ a {
 	height: 50px;
 	background-color: #DFAEAE;
 	font-family: 'Comic Neue', cursive;
-	font-size: 18px;
+	font-size: 36px;
+	color: black;
 }
+
 
 .box-center h3{
 	float: left;
@@ -104,8 +98,11 @@ a {
 	display: inline-block;
 	font-family: 'Antic Didone', serif;
 	font-size: 18px;
-	margin-left: 35px;
-	margin-right: 90px;
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-right: 0px;
+	width: 200px;
+	color: black;
 }
 .box-center h6{
 	text-align: left;
@@ -361,5 +358,4 @@ div .pictures{
 		width: 300px;
 	}
 }
-
 
