@@ -24,6 +24,10 @@ h3{
 	font-size: 36px;
 }
 
+a{
+	text-decoration: none;
+}	
+
 /*Custom design with class and id */
 
 #container1 {
