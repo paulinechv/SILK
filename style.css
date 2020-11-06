@@ -28,6 +28,21 @@ a{
 	text-decoration: none;
 }	
 
+.btn-red {
+	background-color: rgb(230, 168, 171);
+	color: black; 
+	padding: 10px 80px;
+	border-radius: 3px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+	display: inline-block;
+}
+
+.btn-red:hover {
+	background-color: rgb(208, 233, 236);
+	color: black;
+}
+
 /*Custom design with class and id */
 
 #container1 {
