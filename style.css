@@ -618,6 +618,124 @@ div .pictures{
 }
 
 
+
+/* Soap page */
+
+/* colors and fonts */
+
+#top-paragraphs p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+
+#middle-paragraphs p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+
+
+/* Top page */
+
+#top-paragraphs{
+	width: 1250px;
+	height: 650px;
+	margin-top: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#top-paragraphs h3{
+	margin: 0px;
+	margin-top: 80px;
+	margin-left: 225px;
+	text-align: left;
+}
+
+#image1s{
+	width: 350px;
+	height: 470px;
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 40px;
+	display: inline-block;
+	float: left;
+}
+
+#image4s{
+	width: 550px;
+	height: 470px;
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 70px;
+	margin-right: 40px;
+	display: inline-block;
+	float: left;
+}
+
+#middle-paragraphs{
+	width: 1360px;
+	height: 200px;
+	padding: 0px;
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 60px;
+	margin-left: 60px;
+	text-align: center;
+	align-content: center;
+	float: center;
+}
+
+#text-centers {
+	width: 1000px;
+	height: 200px;
+	margin-left: 130px;
+	display: block;
+}
+
+#text-center2s {
+	width: 1000px;
+	height: 200px;
+	margin-left: 130px;
+	display: block;
+	margin-top: 80px;
+}
+
+
+/* Bottom page */
+
+#bottom-paragraphs{
+	margin-top: 80px;
+}
+
+
+#image2s {
+	margin-left: 150px;	
+	margin-top: 80px;
+    float: center;
+	display: block;
+	width: 1100px;
+	height: 550px;
+}
+
+
+/* Buttons */
+
+#btn-s{
+	width: 1200px;
+}
+
+#btn-soap{
+	margin-top: 80px;
+	margin-left: 700px;
+	margin-bottom: 60px;
+	float: right;
+	display: flex;
+	text-decoration: none;
+}
+
+
+
 /*responsivity*/
 
 @media (max-width: 1200px) {
