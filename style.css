@@ -24,6 +24,21 @@ h3{
 	font-size: 36px;
 }
 
+h4{
+	font-family: 'Antic Didone', serif;
+	font-size: 18px;
+}
+
+h5{
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+}
+
+h6{
+	font-family: 'Comic Neue', cursive;
+	font-size: 64px;
+}
+
 a{
 	text-decoration: none;
 }	
@@ -83,7 +98,7 @@ a{
 	height: 30px;
 }
 
-/*banneer's links*/
+/*banner's links*/
 
 .btn-blue {
 	color: black; 
@@ -121,7 +136,7 @@ a{
 	width: 200px;
 }
 
-/* banneer 2: Our Products*/
+/* banner 2: Our Products*/
 
 .text-center2 {
 	width: 1200px; 
