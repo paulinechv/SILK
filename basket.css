@@ -110,6 +110,12 @@ a {
 	font-size: 14px;
 	margin-top: 0px;
 }
+
+#submit:hover{
+	color: rgb(208, 233, 236)
+
+}
+
 /* main page*/
 
 #container1 {
