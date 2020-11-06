@@ -107,7 +107,7 @@ a{
 	width: 200px;
 }
 
-/* bannière 2 */
+/* banneer 2: Our Products*/
 
 .text-center2 {
 	width: 1200px; 
@@ -125,7 +125,7 @@ a{
 	background-position: center;
 }
 
-/* deux premières photos*/ 
+/* 2 first pictures */ 
 
 
 
@@ -142,6 +142,7 @@ div #titleright{
 
 /* text on the page*/
 
+/* Our Products*/ 
 
 #textright {
 	margin-top: 0px;
@@ -187,14 +188,14 @@ div #titleright{
 
 }
 
-/* opacité */
+/* opacity */
 
 #container{
 	color: black;
 	opacity: 0.4;
 }
 
-/* 4 images du bas */
+/* 4 bottom images */
 
 .gallery {
 	width: 1200px;
@@ -243,6 +244,129 @@ div .pictures{
     height: 80px;
     padding: 0px;
 }
+/* Cream page */
+
+#textrightc {
+	margin-top: 30px;
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	float: right;
+	text-align: center;
+}
+
+#textrightc h3{
+	margin-top: 20px; 
+	margin: 0px;
+	text-align: center;
+}
+
+#textrightc span{
+	color: rgb(174, 214, 207);
+}
+
+.image-leftc{
+	margin-top: 20px;
+	margin-left: -50px;
+	width: 300px; 
+    height: 380px;
+    display: inline-block;
+	padding: 0px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+
+}
+#textleftc { 
+	margin-top: 30px;
+	margin-right: 200px;
+	margin-left: -50px;
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+
+.image-rightc {
+	margin-top: -75px;
+	margin-bottom: 20px;
+	width: 300px; 
+    height: 500px;
+    display: inline-block;
+	padding: 0px;
+	float: right;
+	margin-left: 20px;	
+}
+
+.image-bottomc {
+	margin-left: -50px;	
+	float: center;
+	display: inline-block;
+}
+
+#btn-cream {
+	margin-top: 20px;
+	margin-right: 360px;
+	display: inline-block;
+}	
+
+/* About us page*/
+
+#textabout, #textethics, #textethics2 {
+	padding: 0px;
+	display: inline-block;
+	width: 800px;
+	height: 100px;
+	text-align: left;
+}
+
+#textabout h3, #texethics h3 {
+	margin-top: 20px; 
+	margin: 0px;
+}
+
+#textabout span, #textethics span {
+	color: rgb(174, 214, 207);
+}
+
+#textethics2 h3 {
+	margin-top: 10px; 
+	margin: 0px;
+}	
+
+#textethics2 span{
+	color: rgb(231, 169, 172);
+}
+
+#textabout a {
+	text-decoration: none;
+	color:rgb(231, 169, 172);
+}
+
+#textabout a:hover {
+	color: rgb(208, 233, 236);
+}
+
+.logo {
+	width: 50px;
+	height: 30px;
+	float: right;
+	position: relative;
+	margin-right: 590px;
+}
+
+.yuka {
+	width: 70px;
+	height: 30px;
+	float: right;
+	position: relative;
+	bottom: 50px;
+	margin-right: 470px;
+}
+
 
 /*responsivity*/
 
