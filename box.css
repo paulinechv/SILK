@@ -72,7 +72,7 @@ a{
 	margin-left: 30px;
 }
 
-.box-centera input, input[type="submit" i] {
+.box-centera input, button {
 	align-content: left;
 	margin-right:80px;
 	margin-left: 80px;
@@ -83,7 +83,7 @@ a{
 	height: 40px;
 }
 
-.box-centera input[type="submit" i] {
+.box-centera button {
 	height: 50px;
 	background-color: #DFAEAE;
 	font-family: 'Comic Neue', cursive;
