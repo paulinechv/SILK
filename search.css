@@ -59,7 +59,7 @@ a {
 
 .text-center {
 	width: 1360px; 
-    height: 150px;
+    	height: 150px;
 	text-align: center;
 	background-image: url("images/fond1.PNG");
 	padding: 30px;
@@ -122,8 +122,8 @@ a {
 
 .text-center2 {
 	width: 1360px; 
-    height: 100px;
-    display: block;
+    	height: 100px;
+    	display: block;
 	text-align: center;
 	background-image: url("images/fond2.PNG");
 	padding: 30px;
@@ -211,7 +211,7 @@ div .image-left{
 /* 4 images du bas */
 
 .gallery {
-	width: 1200px;
+	width: 1360px;
 	height: 700px;
 	filter: brightness(45%);
 }
