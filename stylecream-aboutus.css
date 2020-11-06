@@ -24,6 +24,11 @@ h3{
 	font-size: 36px;
 	padding-bottom: 20px;
 }
+
+a{
+	text-decoration: none;
+}
+
 /* buying button*/
 
 .btn-red {
