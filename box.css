@@ -97,6 +97,9 @@ a{
 
 /*box center login*/
 
+#sign-in {
+	width: 450px;
+}
 
 .box-center{
 	display: inline-block;
@@ -115,7 +118,6 @@ a{
 	margin-left: 100px;
 	margin-bottom: 10px;
 }
-
 
 .box-center input{
 	align-content: left;
