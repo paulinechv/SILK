@@ -824,8 +824,8 @@ div .pictures{
 
 #btne{
 	display: inline-block;
-	width: 300px;
-	height: 80px;
+	width: 100px;
+	height: 40px;
 	text-align: center;
 	margin-top: 70px;
 }
