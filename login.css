@@ -6,6 +6,7 @@
 h1, h2 {
 	line-height: 5%;
 	font-family: 'Alike', serif;
+	color: black;
 }
 
 h1{
@@ -35,6 +36,9 @@ h6{
 	color: black;
 }
 
+a{
+	text-decoration: none;
+}	
 
 /*Custom design with class and id */
 
