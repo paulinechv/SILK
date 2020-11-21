@@ -48,7 +48,7 @@ a{
 
 .box-centera {
 	display: inline-block;
-	background-image: url("images/ji.PNG");
+	background-image: url("css/ji.PNG");
 	position: absolute;
 	z-index: 100;
 	width: 1420px;
@@ -197,7 +197,7 @@ a{
 	width: 1360px; 
     	height: 150px;
 	text-align: center;
-	background-image: url("images/fond1.PNG");
+	background-image: url("css/fond1.PNG");
 	padding: 30px;
 	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
 	border-radius: 5px;
@@ -261,7 +261,7 @@ a{
     	height: 100px;
     	display: block;
 	text-align: center;
-	background-image: url("images/fond2.PNG");
+	background-image: url("css/fond2.PNG");
 	padding: 30px;
 	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
 	border-radius: 5px;
