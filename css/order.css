@@ -44,7 +44,7 @@ a {
 .box-center{
 	display: inline-block;
 	position: absolute;
-	background-image: url("css/soapw.PNG");
+	background-image: url("../images/soapw.PNG");
 	z-index: 100;
 	width: 1420px;
 	height: 730px;
