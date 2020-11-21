@@ -1,0 +1,362 @@
+/* Code by Pauline C; Modified by Emma*/
+/*Colors and fonts */
+
+
+h1, h2 {
+	line-height: 5%;
+	font-family: 'Alike', serif;
+	color: black;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 17px;
+}
+
+h3{
+	font-family: 'Comic Neue', cursive;
+	font-size: 36px;
+}
+
+h4{
+	font-family: 'Antic Didone', serif;
+	font-size: 18px;
+}
+
+h5{
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+}
+
+h6{
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}	
+
+/*Custom design with class and id */
+
+
+/*box center login*/
+
+
+.box-center{
+	display: inline-block;
+	background-color: #9CC5BE;
+	position: absolute;
+	z-index: 100;
+	width: 500px;
+	height: 630px;
+	text-align:center;
+	margin-top: 120px;
+	align-content: center;
+}
+
+.box-center h3,h5{
+	text-align: left;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+
+
+
+.box-center img{
+	align-content: left;
+	margin-right: 80px;
+	margin-left: 80px;
+	width: 280px;
+	height: 260px;
+}
+
+.box-center button{
+	align-content: left;
+	margin-right: 80px;
+	margin-left: 80px;
+	width: 300px;
+	height: 50px;
+	background-color: #DFAEAE;
+	color: black;
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+}
+
+
+.box-center h3{
+	float: left;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.box-center h5{
+	text-align: left;
+	display: inline-block;
+	font-family: 'Antic Didone', serif;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-right: 0px;
+	width: 200px;
+	color: black;
+}
+.box-center h6{
+	text-align: left;
+	display: inline-block;
+	font-family: 'Antic Didone', serif;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+#submit:hover{
+	color: rgb(208, 233, 236)
+
+}
+
+/* main page*/
+
+#container1 {
+	width: 750px;
+	height: 500px;
+	margin: 60px 300px;
+}
+
+/* bannière 1*/
+
+.container {
+	align-content: center;
+	width: 1420px;
+	margin: 0px 0px;
+	background-size: cover;
+	background-position: center;
+	background-color: rgb(128, 128, 128);
+}
+
+.text-center {
+	width: 1360px; 
+    	height: 150px;
+	text-align: center;
+	background-image: url("images/fond1.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 0px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+	align-content: center;
+}
+
+#titleright{
+	font-family: 'Comic Neue', cursive;
+	font-size: 64px;
+	display: inline-block;
+	float: right;
+	height: 30px;
+}
+
+/*banneer's links*/
+
+.btn-blue {
+	color: black; 
+	padding: 3px 20px;
+	border-radius: 5px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 24px;
+}
+.btn-blue:hover {
+	color: rgb(208, 233, 236);
+}
+
+#column1{
+	float: left;
+	width: 160px;
+}
+
+#column2{
+	float: left;
+	width: 160px;
+}
+
+#column5{
+	float: right;
+	width: 160px;
+}
+
+#column4{
+	float: right;
+	width: 80px;
+}
+
+#column3{
+	float: right;
+	width: 200px;
+}
+
+/* bannière 2 */
+
+.text-center2 {
+	width: 1360px; 
+	height: 100px;
+	display: block;
+	text-align: center;
+	background-image: url("images/fond2.PNG");
+	padding: 30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin:0%; 
+	margin-top: 70px;
+	border: 1px solid lightgrey;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(45%);
+}
+
+/* deux premières photos*/ 
+
+
+
+/*first paragraph*/
+/* NEW*/
+div #titleright{
+	width: 50px;
+	height: 80px;
+}
+
+#titleright p{
+	margin: 0px;
+}
+
+/* text on the page*/
+
+
+#textright {
+	margin-top: 70px;
+	padding: 0px;
+	display: inline-block;
+	width: 440px;
+	height: 100px;
+	text-align: center;
+
+}
+
+#textright h3 {
+	margin: 0px;
+}
+
+
+#textright p{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+}
+
+#textright p1{
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+	color: #DFAEAE;
+} 
+
+div .image-left{
+	position: relative;
+	filter: brightness(45%);
+}
+
+.image-left img{
+	width: 250px; 
+    	height: 490px;
+    	display: block;
+	padding: 0px;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+#bottom-text p {
+	width: 200px;
+	font-family: 'Antic Didone', serif;
+	font-size: 18px;
+	margin-left: 90px;
+	margin-top: 0px;
+
+}
+
+
+
+/* 4 images du bas */
+
+.gallery {
+	width: 1360px;
+	height: 700px;
+	filter: brightness(45%);
+}
+
+.gallery ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 32px 0;
+}
+
+.gallery li {
+    margin: 0 10px;
+    flex-basis: calc(50% - 20px); 
+    text-align: center; /* width minus margins */
+}
+
+.gallery img {
+    width: 250px;               
+    height: 250px;
+    align-content: center;
+	position: center;
+	display: inline-block;
+	float: center;
+}
+
+/*logos*/
+
+div .pictures{
+	width: 750px;
+	height: 80px;
+	margin: 0px;
+}
+
+.pictures ul {
+    display:inline-flex;
+    list-style: none;
+    padding: 0px;
+}
+
+
+.pictures img {
+    width: 85px;               
+    height: 80px;
+    padding: 0px;
+}
+
+
+/*responsivity*/
+
+@media (max-width: 1200px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
